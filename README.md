@@ -1,48 +1,34 @@
-# Femtasy Full Stack technical test
+# Femtasy Front End technical test
 
 ## Description
 
-This is the technical assessment for a full-stack position in femtasy.
+This is the technical assessment for a junior position in femtasy.
 
-Write two simple backend & front applications to show Star Wars content to the users.
+Write a front end application to show Star Wars content to the users.
 
 ## Goal
 
 - Deliver a **production ready application**
 - Provide all **tests** necessary to ensure the correctness of the application
-- Provide a `docker-compose` file to launch the project
 - Provide any relevant **documentation**
 
-## Backend side
+## Frontend requirements
 
-- Create a _backend for front end_ project that consumes [Star Wars API](https://swapi.dev/)
-- The backend can transform the data in any way
-
-### Bonus
-
-- Provide the necessary files to deploy the backend in a Kubernetes cluster
-- Deploy the backend in a cloud provider (Heroku, for example)
-- Use GraphQL to provide the content
-- Instrument your application (metrics, error tracking...)
-
-## Frontend side
-
-- The front client should consume the information from backend above
-- By default, the app will show the list of films
-- When users clicks on an element of the film list, show the following information:
+- The app will show a list of films consumed from [Star Wars API](https://swapi.dev/)
+- When a user clicks on an element of the film list, show the following information:
   - Film data
   - Director data
   - List of characters
-- When users click on a character, show its information
+- When a user clicks on a character, show its information
 - Users can save a film as favorite
 - Users can save a character as favorite
 
 ### Bonus
 
 - Use SASS as CSS extension language
-- Server-side rendering
 - Instrument your application (metrics, error tracking...)
 - Deploy the application to a cloud provider
+- Provide a docker file to launch the project
 
 ## Considerations
 
